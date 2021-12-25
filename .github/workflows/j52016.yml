@@ -9,8 +9,8 @@ on:
         default: "false"
       Enable_cache:
         description: "是否启用cache，true or false"
-        required: true
-        default: "true"
+        required: false
+        default: "false"
       Delete_oldReleases:
         description: "是否删除旧的发布，true or false"
         required: false
@@ -20,8 +20,8 @@ env:
   Rec_ver: 3.6.0
   Rec_url: https://github.com/RC1844/platform_manifest_twrp_omni.git -b twrp-9.0
   device: j5xnlte
-  DT_url: https://github.com/ovevuevuevue/android_device_samsung_j5xnlte -b android-9.0
-  DT_path: device/samsung/j5xnlte
+  DT_url: https://github.com/TeamWin/android_device_samsung_j5xnlte -b android-9.0
+  DT_path: device/samsung/j5xnlte/
   ProductFileHeader: omni
   target: recoveryimage
   WorkSpace: WorkSpace
@@ -31,7 +31,7 @@ env:
 
 jobs:
   build:
-    runs-on: ubuntu-18.04
+    runs-on: ubuntu-16.04
 
     steps:
       - name: "Cleanup Environment"
