@@ -18,7 +18,7 @@ on:
 env:
   Rec_name: TWRP
   Rec_ver: 3.6.0
-  Rec_url: https://github.com/ovevuevuevue/android_build -b twrp-9.0
+  Rec_url: https://github.com/RC1844/platform_manifest_twrp_omni.git -b twrp-9.0
   device: j5xnlte
   DT_url: https://github.com/TeamWin/android_device_samsung_j5xnlte.git -b android-9.0
   DT_path: device/samsung/j5xnlte
