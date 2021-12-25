@@ -26,7 +26,7 @@ env:
   target: recoveryimage
   WorkSpace: WorkSpace
   TZ: Europe/Spain
-  Author: ${{github.actor}}
+  Author: ${{mikoto}}
   Delete_old: false
 
 jobs:
